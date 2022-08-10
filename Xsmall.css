@@ -1,0 +1,567 @@
+@media only screen and (max-width:600px){
+
+
+
+
+    *{
+        margin:0;padding:0;
+    }
+    
+    
+  
+   
+    .footerBox2 ul {
+        padding: 0;
+    }
+    
+    .footerBox3 ul {
+        padding: 0;
+    }
+    
+    
+.nav-item a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: rgb(144, 144, 144);
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+.nav-item a:after {
+    content: '';
+    position: absolute;
+    background: orange;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+    color:#00fa9a
+}
+
+.nav-item a:hover:after {
+    width: 100%;
+ 
+}
+.blockTitle h6 {
+    color: white;
+}
+
+.middle{
+
+    background-image:url(img/4282794.jpg) ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    }
+    
+   
+    
+    
+    .treeMan img {
+        width: 100%;
+    }
+    
+    .Blocks{
+        transition:all 0.5s;border: 1px solid #d5d5d582;
+    }
+    
+    
+   
+    
+    
+    .blockTitle{
+        padding: 15px 0px;
+        text-align: center;
+    }
+    
+    
+    
+    .card:hover {
+        transform: translateY(-10px);
+    }
+    
+    .card {
+        transition: all 0.5s;
+        border-radius: 15px;
+    }
+    
+    .card img {
+        border-radius: 15px 15px 0px 0px;
+    }
+    
+    .planBlock {
+        background: white;
+        border-radius: 15px;
+    }
+    .planList ul li{
+        
+       line-height: 30px;
+    }
+    .planList ul li a{
+        text-decoration:none;
+        color:black;
+    }
+    .planBlocks {
+        border-radius: 18px;
+        background-color: white;
+    }
+    
+    .planBlocks button {
+        border: none;
+        background: mediumspringgreen;
+        padding: 7px 52px;
+        margin: auto;
+        display: block;
+        border-radius: 5px;
+    }
+    
+    
+    .planBlocks h2 {
+        font-weight: bold;
+    }
+    
+    .planBlocks h3 {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    
+    .planList ul li a {
+        font-weight: bold;
+    }
+    
+    .planBlocks button {
+        font-weight: bold;
+    }
+    
+    
+    footer {
+        color: white;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .serviceBlocks {
+        text-align: center;
+        border-radius: 5px;
+        background:white;
+        transition: all 0.5s;
+        position:relative;
+    }
+
+
+     .serviceBlocks:hover{
+
+        background-color: #00fa9a;
+        
+        color:black;
+        
+        transform: translateY(-5px);
+        }
+
+       
+
+      
+        .serviceBlocks h4 {
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+
+        .menu img {
+            width: 100%;
+        }
+        
+        .menu h1 {
+            
+            font-weight: bold;
+        }
+        
+        .menu h3 {
+            font-size: 36px;
+            font-weight: bold;
+            color: mediumseagreen;
+        }
+        
+        .menu p {
+            font-weight: bold;
+        }
+        
+        .menu button {
+            padding: 4px 16px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        a.navbar-brand {
+            color: rgb(255, 253, 253);
+            font-size: 29px;
+            font-weight: bold;
+        }
+        
+        a.nav-link {
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+        }
+        ul#menus li a {color: black;text-decoration: none;font-weight: bold;margin-left: 23px;}
+
+
+        .nav-item {
+            padding-top: 17px;
+        }
+
+        .navbar-expand-lg {
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            background: black;
+            padding-top: 27px;
+        }
+        ul#menus li a {color: rgb(255, 255, 255);text-decoration: none;font-weight: bold;margin-left: 23px;}
+
+        i.bx.bx-menu {
+            color: orange;
+            font-size: 48px;
+        }
+
+      
+        .myPic img {
+            width: 100%;
+        }
+
+
+
+        .blockIcon i {
+            color: white;
+            font-size: 41px;
+            justify-content: center;
+            display: flex;
+            padding-top: 10px;
+        }
+
+        .Blocks:hover{
+            background: #c493ff30;
+            transform: scale(1.1);
+            color: black;
+            box-shadow: 10px 10px 14px 1px rgb(0 0 0 / 20%);
+            }
+
+            
+            .planBlocks p {
+                font-weight: normal;
+                font-size: 15px;
+                text-align: center;
+            }
+        
+        
+        
+        
+            .planList ul li {
+                border-bottom: 1px solid #8080806b;
+                list-style: none;
+                padding: 6px 0px;
+            }
+        
+            .planBlocks p {
+                font-weight: normal;
+            }
+            .buttonPack h1 {
+                text-align: center;
+            }
+        
+            .planList ul {
+                padding: 0;
+                text-align: center;
+            }
+        
+        
+        
+            .buttonPack a {
+                text-align: center;
+                color: black;
+                display: inline-block;
+                padding: 9px 44px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        
+        
+        
+        
+            .buttonPack a {
+                text-align: center;
+                color: black;
+                display: inline-block;
+                padding: 10px 79px;
+                text-decoration: none;
+                font-weight: bold;
+                /* margin-bottom: 61px; */
+                font-size: 12px;
+                display: none;
+            }
+        
+            .buttonPack {
+                text-align: center;
+                padding-bottom: 13px;
+            }
+        
+            .planBlocks button {
+                border: none;
+                background: mediumspringgreen;
+                padding: 7px 52px;
+                margin: auto;
+                display: block;
+                border-radius: 5px;
+            }
+        
+        
+            .planBlocks:hover {
+                background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+            transition: all 0.5s;
+                transform: scale(1.1);
+            }
+            .planBlocks:hover .numberCircle a{
+                    color:white;
+            }
+            .planBlocks:hover button{
+                background:white;color:black;
+            }
+            .planBlocks button:hover{
+                background:purple;color:white;
+            }
+        
+        
+        
+            .planBlocks h2 {
+                font-weight: bold;
+            }
+        
+            .planBlocks h3 {
+                font-weight: bold;
+                font-size: x-large;
+            }
+        
+        
+            .planBlocks button {
+                font-weight: bold;
+            }
+            .planBlocks:hover .planList ul li a {
+                color: white;
+            }
+        
+        
+            .planBlocks:hover .buttonPack a {
+                display: block;
+                background: white;
+                color:
+                black;
+                margin-bottom: 24px;
+            }
+        
+            .planBlocks:hover .buttonPack h1 {
+                display: none;
+            }
+            .planBlocks:hover .planName p{
+        
+        
+                color:white;
+            }
+            .planBlocks:hover p {
+                color: white;
+            }
+        
+            .planBlocks:hover h6 {
+                color: white;
+            }
+        
+    .numberCircle {
+        width: 180px;
+        height: 180px;
+        background: #eceeff85;
+        margin: auto;
+        border-radius: 50%;
+        border: 22px solid #e2e5ff9e;
+    }
+
+
+    .numberCircle a {
+        text-decoration: none;
+    color:black;
+        justify-content: center;
+        display: flex;
+        margin-top: 22px;
+        font-weight: normal;
+        font-size: 55px;
+    }
+    .planBlocks h6 {
+        font-size: 24px;
+        margin-top: 19px;
+        text-align: center;
+    }
+
+
+
+    .footerBox1 {
+        margin-bottom: 30px;
+    }
+    
+    .footerBox2 {
+        margin-bottom: 30px;
+    }
+    
+    .footerBox3 {
+        margin-bottom: 30px;
+    }
+    .info i {
+        color: black;
+        font-size: 28px;
+    }
+
+
+    span.htmlpersentage {
+        font-size: 13px;
+        position: absolute;
+        left: 90%;
+        background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+        padding: 9px;
+        border-radius: 5px;
+        top: 13%;
+        font-weight: bold;
+        color: black;
+    }
+
+
+
+    span.csspersentage {
+        font-size: 13px;
+        position: absolute;
+        left: 90%;
+        background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+        padding: 9px;
+        border-radius: 5px;
+        top: 32%;
+        font-weight: bold;
+        color: black;
+    }
+    span.bootpersentage {
+        font-size: 13px;
+        position: absolute;
+        left: 90%;
+        background: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52% 100%);
+        padding: 9px;
+        border-radius: 5px;
+        top: 50%;
+        font-weight: bold;
+        color: black;
+    }
+    span.jspersentage {
+        font-size: 13px;
+        position: absolute;
+        left: 90%;
+        background: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+        padding: 9px;
+        border-radius: 5px;
+        top: 67%;
+        font-weight: bold;
+        color: black;
+    }
+    span.phppersentage {
+        font-size: 13px;
+        position: absolute;
+        left: 90%;
+        background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        padding: 9px;
+        border-radius: 5px;
+        top: 85%;
+        font-weight: bold;
+        color: black;
+    }
+
+
+
+    .pregressBar h1 {
+        font-size: 24px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-family: unset;
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+.learnMore a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid orange;
+    padding: 5px 17px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.learnMore a:hover {
+    background: white;
+    color: black;
+    border: none;
+}
+
+.serviceIcon {
+    width: 100px;
+    height: 100px;
+    background: mediumspringgreen;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    top: -30%;
+    left: 31%;
+}
+.serviceIcon i {
+    font-size: 40px;
+    padding-top: 31px;
+}
+
+.exPicture img {
+    width: 100%;
+}
+
+
+
+.serviceBlocks:hover .serviceIcon {background: white;}
+.socialFooter i {
+    font-size: 32px;
+    color: mediumturquoise;
+}
+
+footer {
+    color: white;
+    background-image: url(img/cta-bg.jpg);
+    background-size: cover;
+}
+.membarSection {
+    background: #040404;
+}
+
+.membarTitle {
+    color: white;
+}
+.info {
+    color: white;
+}
+
+.info i {
+    color: black;
+    border: 6px solid #00000047;
+    border-radius: 31px;
+    background: orange;
+    padding: 8px;
+    float: left;
+    margin-right: 9px;
+}
+    }
