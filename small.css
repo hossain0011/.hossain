@@ -250,29 +250,7 @@ footer a {
     
     
     
-        .buttonPack a {
-            text-align: center;
-            color: black;
-            display: inline-block;
-            padding: 9px 44px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    
-    
-    
-    
-        .buttonPack a {
-            text-align: center;
-            color: black;
-            display: inline-block;
-            padding: 10px 79px;
-            text-decoration: none;
-            font-weight: bold;
-            /* margin-bottom: 61px; */
-            font-size: 12px;
-            display: none;
-        }
+  
     
         .buttonPack {
             text-align: center;
@@ -289,22 +267,7 @@ footer a {
         }
     
     
-        .planBlocks:hover {
-            background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
-        transition: all 0.5s;
-            transform: scale(1.1);
-        }
-        .planBlocks:hover .numberCircle a{
-                color:white;
-        }
-        .planBlocks:hover button{
-            background:white;color:black;
-        }
-        .planBlocks button:hover{
-            background:purple;color:white;
-        }
-    
-    
+       
     
         .planBlocks h2 {
             font-weight: bold;
@@ -319,34 +282,10 @@ footer a {
         .planBlocks button {
             font-weight: bold;
         }
-        .planBlocks:hover .planList ul li a {
-            color: white;
-        }
+        
     
     
-        .planBlocks:hover .buttonPack a {
-            display: block;
-            background: white;
-            color:
-            black;
-            margin-bottom: 24px;
-        }
-    
-        .planBlocks:hover .buttonPack h1 {
-            display: none;
-        }
-        .planBlocks:hover .planName p{
-    
-    
-            color:white;
-        }
-        .planBlocks:hover p {
-            color: white;
-        }
-    
-        .planBlocks:hover h6 {
-            color: white;
-        }
+      
     
 
         .numberCircle {
