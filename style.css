@@ -191,11 +191,15 @@
 
 
     .planBlocks {
-        border: 1px solid #ff006240;
-        box-shadow: 0 1px 10px 2px rgb(23 23 23 / 24%);
-        
+        border-radius: 18px;
+        padding-bottom: 16px;
+        border: 16px solid #ffffff7a;
+        color: white;
+        background: linear-gradient(180deg ,#dc354569 ,#ffbba482);
     }
-
+    .planList ul li a {
+        color: white;
+    }
     .numberCircle {
         width: 180px;
         height: 180px;
@@ -254,12 +258,13 @@
 
 
     .buttonPack a {
-        background: white;
+        background: mediumturquoise;
         padding: 4px 41px;
         font-size: 15px;
         text-decoration: none;
-        color: black;
+        color: white;
         font-weight: bold;
+        border-radius: 4px;
     }
     
 
@@ -679,7 +684,7 @@ footer {
 }
 
 .membarSection {
-    background: #040404;
+    background: linear-gradient(0deg, #010f34, #00224f);
 }
 
 .membarTitle {
