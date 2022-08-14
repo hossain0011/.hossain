@@ -78,20 +78,78 @@
     }
     
     
-    
-    .card:hover {
-        transform: translateY(-10px);
+    .card h5 {
+        font-weight: bold;
     }
     
-    .card {
-        transition: all 0.5s;
-        border-radius: 15px;
+    .card p {
+        color: #4f4f4f;
+    }
+   
+    .image img {
+        width: 100%;
+        border-radius: 0% 0% 57% 57%;
+    }
+    .memberSocialIcon #icon1 i {position: absolute;top: -3px;left: 10px;font-size: 46px;}
+
+    .memberSocialIcon #icon2 i {
+        position: absolute;
+        left: 58px;
+        top: 10px;
+        font-size: 46px;
+    }
+    .professionIcon img {
+        width: 49px;
+        float: left;
+        margin: 5px 17px 9px 10px;
+    }
+    .memberSocialIcon{
+        width: 200px;
+        height: 71px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;opacity:0;
+        margin-top: -42px;
+        position:
+        relative;
+        transition: all 0.4s;
+        }
+         .card:hover .memberSocialIcon {
+            opacity: 1;
+            transform: translateY(-50px);
+        } .memberSocialIcon i {
+            color: white;
+        }
+    .memberSocialIcon #icon3 i {
+        position: absolute;
+        left: 105px;
+        top: 10px;
+        font-size: 46px;
     }
     
-    .card img {
-        border-radius: 15px 15px 0px 0px;
+    .memberSocialIcon #icon4 i {
+        position: absolute;
+        left: 152px;
+        top: -3px;
+        font-size: 46px;
     }
+
     
+    .memberSocialIcon{
+        width: 222px;
+        height: 71px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: -10px;
+        position:
+        relative;
+        }
+
+
+
     .planBlock {
         background: white;
         border-radius: 15px;
@@ -491,20 +549,13 @@ footer {
     background-size: cover;
 }
 .membarSection {
-    background: linear-gradient(0deg, #010f34, #00224f);
+    background: white;
 }
-.membarTitle {
-    color: white;
-}
+
 .info {
     color: white;
 }
-.card {
-    background: transparent;
-}
-.card {
-    background: transparent;
-}
+
 .info i {
     color: black;
     border: 6px solid #00000047;
@@ -540,17 +591,12 @@ footer {
 .footerBox3 ul li a:hover {
     color:mediumturquoise;
 }
+.membarTitle {
+    color: black;
+    text-align: center;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-    }
+.card {
+    box-shadow:0px 0px 10px 1px rgb(86 81 81 / 49%);
+}
+}
