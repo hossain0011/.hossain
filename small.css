@@ -13,24 +13,83 @@
     
    
    
-    
+    .memberSocialIcon #icon1 i {position: absolute;top: -3px;left: 10px;font-size: 46px;}
+
+    .memberSocialIcon #icon2 i {
+        position: absolute;
+        left: 58px;
+        top: 10px;
+        font-size: 46px;
+    }
+    .memberSocialIcon{
+        width: 200px;
+        height: 71px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;opacity:0;
+        margin-top: -42px;
+        position:
+        relative;
+        transition: all 0.4s;
+        }
+         .card:hover .memberSocialIcon {
+            opacity: 1;
+            transform: translateY(-52px);
+        } .memberSocialIcon i {
+            color: white;
+        }
+    .memberSocialIcon #icon3 i {
+        position: absolute;
+        left: 105px;
+        top: 10px;
+        font-size: 46px;
+    }
+    .professionIcon img {
+        width: 49px;
+        float: left;
+        margin: 5px 17px 9px 10px;
+    }.card {
+        box-shadow:0px 0px 10px 1px rgb(86 81 81 / 49%);
+    }.membarTitle {
+        color: black;
+        text-align: center;
+    }
+.blockI
+    .memberSocialIcon #icon4 i {
+        position: absolute;
+        left: 152px;
+        top: -3px;
+        font-size: 46px;
+    }
  
     
- 
-    .card:hover {
-        transform: translateY(-10px);
+   
+  
+    
+    .card h5 {
+        font-weight: bold;
     }
     
-    .card {
-        transition: all 0.5s;
-        border-radius: 15px;
+    .card p {
+        color: #4f4f4f;
     }
-    
-    .card img {
-        border-radius: 15px 15px 0px 0px;
+    .image img {
+        width: 100%;
+        border-radius: 0% 0% 57% 57%;
     }
-    
-    
+    .memberSocialIcon{
+        width: 200px;
+        height: 71px;
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: -10px;
+        position:relative;
+       
+       ;}
     .planBlock {
         background: white;
         border-radius: 15px;
@@ -214,16 +273,11 @@ footer a {
             
         }
         .membarSection {
-            background: linear-gradient(0deg, #010f34, #00224f);
+            background: white;
         }
         
-        .membarTitle {
-            color: white;
-        }
-        .card {
-            background: transparent;
-        }
-
+      
+      
         .planBlocks p {
             font-weight: normal;
             font-size: 15px;
