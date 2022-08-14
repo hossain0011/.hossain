@@ -27,20 +27,6 @@
     
 
 
-    .card:hover {
-        transform: translateY(-10px);
-    }
-    
-    .card {
-        transition: all 0.5s;
-        border-radius: 15px;
-    }
-    
-    .card img {
-        border-radius: 15px 15px 0px 0px;
-    }
-    
-     
     .planBlock {
         background: white;
         border-radius: 15px;
@@ -123,7 +109,13 @@
         }
 
        
-
+        .card h5 {
+            font-weight: bold;
+        }
+        
+        .card p {
+            color: #4f4f4f;
+        }
        
         .serviceBlocks h4 {
             font-weight: bold;
@@ -131,9 +123,52 @@
             margin-top: 15px;
         }
 
+        .memberSocialIcon{
+            width: 200px;
+            height: 71px;
+           
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-top: -10px;
+            position:relative;
+           
+           ;}
+     
+        .memberSocialIcon i {color: black;font-size: 31px;}
+        .memberSocialIcon #icon1 i {position: absolute;top: -3px;left: 10px;font-size: 46px;}
 
-
-
+        .memberSocialIcon #icon2 i {
+            position: absolute;
+            left: 58px;
+            top: 10px;
+            font-size: 46px;
+        }
+        
+        .memberSocialIcon #icon3 i {
+            position: absolute;
+            left: 105px;
+            top: 10px;
+            font-size: 46px;
+        }
+        .professionIcon img {
+            width: 49px;
+            float: left;
+            margin: 5px 17px 9px 10px;
+        }
+        .memberSocialIcon #icon4 i {
+            position: absolute;
+            left: 152px;
+            top: -3px;
+            font-size: 46px;
+        }
+        
+        .image img {
+            width: 100%;
+            border-radius: 0% 0% 57% 57%;
+        }
+        
 
         .menu img {
             width: 100%;
@@ -188,9 +223,30 @@
         }
 
 
-      
-
-
+        .memberSocialIcon{
+            width: 200px;
+            height: 71px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;opacity:0;
+            margin-top: -42px;
+            position:
+            relative;
+            transition: all 0.4s;
+            }
+             .card:hover .memberSocialIcon {
+                opacity: 1;
+                transform: translateY(-20px);
+            } 
+            .memberSocialIcon i {
+                color: white;
+            }.card {
+                box-shadow:0px 0px 10px 1px rgb(86 81 81 / 49%);
+            }.membarTitle {
+                color: black;
+                text-align: center;
+            }
         .blockIcon i {
             color: white;
             font-size: 41px;
@@ -216,15 +272,12 @@
             }
             
             .membarSection {
-                background: linear-gradient(0deg, #010f34, #00224f);
+
+
+                background: white;
             }
             
-            .membarTitle {
-                color: white;
-            }
-            .card {
-                background: transparent;
-            }
+           
             
            
             .planBlocks p {
